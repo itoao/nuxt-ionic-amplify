@@ -1,0 +1,24 @@
+{
+  "name": "ts-transformer-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^16.11.6",
+    "fs": "0.0.1-security",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "transform": "ts-node bin/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ao_ito_@bitbucket.org/tabian/ts-transformer-api.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/tabian/ts-transformer-api#readme",
+  "description": ""
+}
